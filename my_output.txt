@@ -1,29 +1,7 @@
 Process 1 loaded with segment table stored at physical address 0
-PRINTING MEMORY BLOCKS:
----------------------------------
-Process ID: 1, Start Address: 0, Size: 422
-Process ID: -1, Start Address: 422, Size: 1626
 Process 2 loaded with segment table stored at physical address 422
-PRINTING MEMORY BLOCKS:
----------------------------------
-Process ID: 1, Start Address: 0, Size: 422
-Process ID: 2, Start Address: 422, Size: 520
-Process ID: -1, Start Address: 942, Size: 1106
 Process 3 loaded with segment table stored at physical address 942
-PRINTING MEMORY BLOCKS:
----------------------------------
-Process ID: 1, Start Address: 0, Size: 422
-Process ID: 2, Start Address: 422, Size: 520
-Process ID: 3, Start Address: 942, Size: 354
-Process ID: -1, Start Address: 1296, Size: 752
 Process 4 loaded with segment table stored at physical address 1296
-PRINTING MEMORY BLOCKS:
----------------------------------
-Process ID: 1, Start Address: 0, Size: 422
-Process ID: 2, Start Address: 422, Size: 520
-Process ID: 3, Start Address: 942, Size: 354
-Process ID: 4, Start Address: 1296, Size: 486
-Process ID: -1, Start Address: 1782, Size: 266
 Insufficient memory for Process 5. Attempting memory coalescing.
 Process 5 waiting in NewJobQueue due to insufficient memory.
 0 : 2
@@ -36,7 +14,7 @@ Process 5 waiting in NewJobQueue due to insufficient memory.
 7 : 30
 8 : 399
 9 : 0
-10 : 1
+10 : 0
 11 : 399
 12 : 0
 13 : 4
@@ -458,7 +436,7 @@ Process 5 waiting in NewJobQueue due to insufficient memory.
 429 : 20
 430 : 497
 431 : 0
-432 : 1
+432 : 0
 433 : 497
 434 : 422
 435 : 2
@@ -978,7 +956,7 @@ Process 5 waiting in NewJobQueue due to insufficient memory.
 949 : 33
 950 : 331
 951 : 0
-952 : 1
+952 : 0
 953 : 331
 954 : 942
 955 : 1
@@ -1332,7 +1310,7 @@ Process 5 waiting in NewJobQueue due to insufficient memory.
 1303 : 30
 1304 : 463
 1305 : 0
-1306 : 1
+1306 : 0
 1307 : 463
 1308 : 1296
 1309 : 2
@@ -2075,92 +2053,47 @@ Process 5 waiting in NewJobQueue due to insufficient memory.
 2046 : -1
 2047 : -1
 Process 1 has moved to Running.
-Process ID: 4, Param Index: 0
-Process ID: 3, Param Index: 0
-Process ID: 2, Param Index: 0
-Process ID: 1, Param Index: 0
-395 395
 loaded
 Logical address 395 translated to physical address 395 for Process 1
-100 358 stored
+stored
 Logical address 358 translated to physical address 358 for Process 1
 Process 1 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 2 has moved to Running.
-Process ID: 4, Param Index: 0
-Process ID: 3, Param Index: 0
-Process ID: 2, Param Index: 0
-Process ID: 1, Param Index: 3
 Process 2 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 3 has moved to Running.
-Process ID: 4, Param Index: 0
-Process ID: 3, Param Index: 0
-Process ID: 2, Param Index: 1
-Process ID: 1, Param Index: 3
 compute
 Process 3 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 2 completed I/O and is moved to the ReadyQueue.
 Process 4 has moved to Running.
-Process ID: 4, Param Index: 0
-Process ID: 3, Param Index: 2
-Process ID: 2, Param Index: 1
-Process ID: 1, Param Index: 3
 Process 4 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 1 has moved to Running.
-Process ID: 4, Param Index: 1
-Process ID: 3, Param Index: 2
-Process ID: 2, Param Index: 1
-Process ID: 1, Param Index: 3
-13 277 stored
+stored
 Logical address 277 translated to physical address 277 for Process 1
-1 328 stored
+stored
 Logical address 328 translated to physical address 328 for Process 1
 Process 1 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 4, Param Index: 1
-Process ID: 3, Param Index: 2
-Process ID: 2, Param Index: 1
-Process ID: 1, Param Index: 7
-168 168
 loaded
 Logical address 168 translated to physical address 1110 for Process 3
-216 216
 loaded
 Logical address 216 translated to physical address 1158 for Process 3
 Process 3 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 4 completed I/O and is moved to the ReadyQueue.
 Process 2 has moved to Running.
-Process ID: 4, Param Index: 1
-Process ID: 3, Param Index: 4
-Process ID: 2, Param Index: 1
-Process ID: 1, Param Index: 7
 Process 2 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 1 has moved to Running.
-Process ID: 4, Param Index: 1
-Process ID: 3, Param Index: 4
-Process ID: 2, Param Index: 2
-Process ID: 1, Param Index: 7
 Process 1 issued an IOInterrupt and moved to the IOWaitingQueue.
 print
 Process 2 completed I/O and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 4, Param Index: 1
-Process ID: 3, Param Index: 4
-Process ID: 2, Param Index: 2
-Process ID: 1, Param Index: 8
-288 288
 loaded
 Logical address 288 translated to physical address 1230 for Process 3
 Process 3 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 4 has moved to Running.
-Process ID: 4, Param Index: 1
-Process ID: 3, Param Index: 6
-Process ID: 2, Param Index: 2
-Process ID: 1, Param Index: 8
-35 376 stored
+stored
 Logical address 376 translated to physical address 1672 for Process 4
-327 327
 loaded
 Logical address 327 translated to physical address 1623 for Process 4
 Process 4 has a TimeOUT interrupt and is moved to the ReadyQueue.
@@ -2169,25 +2102,13 @@ Process 1 completed I/O and is moved to the ReadyQueue.
 print
 Process 3 completed I/O and is moved to the ReadyQueue.
 Process 2 has moved to Running.
-Process ID: 4, Param Index: 4
-Process ID: 3, Param Index: 6
-Process ID: 2, Param Index: 2
-Process ID: 1, Param Index: 8
-37 344 stored
+stored
 Logical address 344 translated to physical address 766 for Process 2
 Process 2 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 4 has moved to Running.
-Process ID: 4, Param Index: 4
-Process ID: 3, Param Index: 6
-Process ID: 2, Param Index: 5
-Process ID: 1, Param Index: 8
 Process 4 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 1 has moved to Running.
-Process ID: 4, Param Index: 5
-Process ID: 3, Param Index: 6
-Process ID: 2, Param Index: 5
-Process ID: 1, Param Index: 8
-24 216 stored
+stored
 Logical address 216 translated to physical address 216 for Process 1
 compute
 Process 1 has a TimeOUT interrupt and is moved to the ReadyQueue.
@@ -2196,55 +2117,28 @@ Process 2 completed I/O and is moved to the ReadyQueue.
 print
 Process 4 completed I/O and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 4, Param Index: 5
-Process ID: 3, Param Index: 6
-Process ID: 2, Param Index: 5
-Process ID: 1, Param Index: 12
 Process 3 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 1 has moved to Running.
-Process ID: 4, Param Index: 5
-Process ID: 3, Param Index: 7
-Process ID: 2, Param Index: 5
-Process ID: 1, Param Index: 12
-333 333
 loaded
 Logical address 333 translated to physical address 333 for Process 1
-343 343
 loaded
 Logical address 343 translated to physical address 343 for Process 1
 Process 1 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 2 has moved to Running.
-Process ID: 4, Param Index: 5
-Process ID: 3, Param Index: 7
-Process ID: 2, Param Index: 5
-Process ID: 1, Param Index: 14
 Process 2 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 4 has moved to Running.
-Process ID: 4, Param Index: 5
-Process ID: 3, Param Index: 7
-Process ID: 2, Param Index: 6
-Process ID: 1, Param Index: 14
-27 253 stored
+stored
 Logical address 253 translated to physical address 1549 for Process 4
 Process 4 issued an IOInterrupt and moved to the IOWaitingQueue.
 print
 Process 3 completed I/O and is moved to the ReadyQueue.
 Process 1 has moved to Running.
-Process ID: 4, Param Index: 8
-Process ID: 3, Param Index: 7
-Process ID: 2, Param Index: 6
-Process ID: 1, Param Index: 14
-321 321
 loaded
 Logical address 321 translated to physical address 321 for Process 1
-18 395 stored
+stored
 Logical address 395 translated to physical address 395 for Process 1
 Process 1 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 4, Param Index: 8
-Process ID: 3, Param Index: 7
-Process ID: 2, Param Index: 6
-Process ID: 1, Param Index: 17
 compute
 Process 3 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
@@ -2252,31 +2146,14 @@ Process 2 completed I/O and is moved to the ReadyQueue.
 print
 Process 4 completed I/O and is moved to the ReadyQueue.
 Process 1 has moved to Running.
-Process ID: 4, Param Index: 8
-Process ID: 3, Param Index: 9
-Process ID: 2, Param Index: 6
-Process ID: 1, Param Index: 17
-79 230 stored
+stored
 Logical address 230 translated to physical address 230 for Process 1
 Process 1 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 3 has moved to Running.
-Process ID: 4, Param Index: 8
-Process ID: 3, Param Index: 9
-Process ID: 2, Param Index: 6
-Process ID: 1, Param Index: 20
 Process 3 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 2 has moved to Running.
-Process ID: 4, Param Index: 8
-Process ID: 3, Param Index: 10
-Process ID: 2, Param Index: 6
-Process ID: 1, Param Index: 20
 Process 2 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 4 has moved to Running.
-Process ID: 4, Param Index: 8
-Process ID: 3, Param Index: 10
-Process ID: 2, Param Index: 7
-Process ID: 1, Param Index: 20
-243 243
 loaded
 Logical address 243 translated to physical address 1539 for Process 4
 compute
@@ -2288,44 +2165,22 @@ Process 3 completed I/O and is moved to the ReadyQueue.
 print
 Process 2 completed I/O and is moved to the ReadyQueue.
 Process 4 has moved to Running.
-Process ID: 4, Param Index: 11
-Process ID: 3, Param Index: 10
-Process ID: 2, Param Index: 7
-Process ID: 1, Param Index: 20
-234 234
 loaded
 Logical address 234 translated to physical address 1530 for Process 4
-428 428
 loaded
 Logical address 428 translated to physical address 1724 for Process 4
 Process 4 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 1 has moved to Running.
-Process ID: 4, Param Index: 13
-Process ID: 3, Param Index: 10
-Process ID: 2, Param Index: 7
-Process ID: 1, Param Index: 20
-60 285 stored
+stored
 Logical address 285 translated to physical address 285 for Process 1
-41 303 stored
+stored
 Logical address 303 translated to physical address 303 for Process 1
 Process 1 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 4, Param Index: 13
-Process ID: 3, Param Index: 10
-Process ID: 2, Param Index: 7
-Process ID: 1, Param Index: 24
 Process 3 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 2 has moved to Running.
-Process ID: 4, Param Index: 13
-Process ID: 3, Param Index: 11
-Process ID: 2, Param Index: 7
-Process ID: 1, Param Index: 24
 Process 2 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 4 has moved to Running.
-Process ID: 4, Param Index: 13
-Process ID: 3, Param Index: 11
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 24
 compute
 Process 4 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
@@ -2333,33 +2188,17 @@ Process 3 completed I/O and is moved to the ReadyQueue.
 print
 Process 2 completed I/O and is moved to the ReadyQueue.
 Process 1 has moved to Running.
-Process ID: 4, Param Index: 15
-Process ID: 3, Param Index: 11
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 24
 compute
 Process 1 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 4 has moved to Running.
-Process ID: 4, Param Index: 15
-Process ID: 3, Param Index: 11
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 26
 compute
 Process 4 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 4, Param Index: 17
-Process ID: 3, Param Index: 11
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 26
-18 296 stored
+stored
 Logical address 296 translated to physical address 1238 for Process 3
 compute
 Process 3 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 2 has moved to Running.
-Process ID: 4, Param Index: 17
-Process ID: 3, Param Index: 15
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 26
 Process ID: 2
 State: TERMINATED
 Program Counter: 12
@@ -2374,22 +2213,9 @@ Total CPU Cycles Consumed: 167
 Process 2 terminated. Entered running state at: 6. Terminated at: 173. Total Execution Time: 167.
 Process 2 terminated and freed memory blocks.
 Process 5 loaded with segment table stored at physical address 422
-PRINTING MEMORY BLOCKS:
----------------------------------
-Process ID: 1, Start Address: 0, Size: 422
-Process ID: 5, Start Address: 422, Size: 519
-Process ID: -1, Start Address: 941, Size: 1
-Process ID: 3, Start Address: 942, Size: 354
-Process ID: 4, Start Address: 1296, Size: 486
-Process ID: -1, Start Address: 1782, Size: 266
 Insufficient memory for Process 6. Attempting memory coalescing.
 Process 6 waiting in NewJobQueue due to insufficient memory.
 Process 1 has moved to Running.
-Process ID: 5, Param Index: 0
-Process ID: 4, Param Index: 17
-Process ID: 3, Param Index: 15
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 26
 compute
 Process ID: 1
 State: TERMINATED
@@ -2405,70 +2231,21 @@ Total CPU Cycles Consumed: 183
 Process 1 terminated. Entered running state at: 2. Terminated at: 185. Total Execution Time: 183.
 Process 1 terminated and freed memory blocks.
 Process 6 loaded with segment table stored at physical address 0
-PRINTING MEMORY BLOCKS:
----------------------------------
-Process ID: 6, Start Address: 0, Size: 320
-Process ID: -1, Start Address: 320, Size: 102
-Process ID: 5, Start Address: 422, Size: 519
-Process ID: -1, Start Address: 941, Size: 1
-Process ID: 3, Start Address: 942, Size: 354
-Process ID: 4, Start Address: 1296, Size: 486
-Process ID: -1, Start Address: 1782, Size: 266
 Process 7 loaded with segment table stored at physical address 320
-PRINTING MEMORY BLOCKS:
----------------------------------
-Process ID: 6, Start Address: 0, Size: 320
-Process ID: 7, Start Address: 320, Size: 102
-Process ID: 5, Start Address: 422, Size: 519
-Process ID: 7, Start Address: 941, Size: 1
-Process ID: 3, Start Address: 942, Size: 354
-Process ID: 4, Start Address: 1296, Size: 486
-Process ID: 7, Start Address: 1782, Size: 185
-Process ID: -1, Start Address: 1967, Size: 81
 Insufficient memory for Process 8. Attempting memory coalescing.
 Process 8 waiting in NewJobQueue due to insufficient memory.
 Process 4 has moved to Running.
-Process ID: 7, Param Index: 0
-Process ID: 6, Param Index: 0
-Process ID: 5, Param Index: 0
-Process ID: 4, Param Index: 17
-Process ID: 3, Param Index: 15
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 4 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 7, Param Index: 0
-Process ID: 6, Param Index: 0
-Process ID: 5, Param Index: 0
-Process ID: 4, Param Index: 19
-Process ID: 3, Param Index: 15
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-298 298
 loaded
 Logical address 298 translated to physical address 1240 for Process 3
 Process 3 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 5 has moved to Running.
-Process ID: 7, Param Index: 0
-Process ID: 6, Param Index: 0
-Process ID: 5, Param Index: 0
-Process ID: 4, Param Index: 19
-Process ID: 3, Param Index: 17
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-303 303
 loaded
 Logical address 303 translated to physical address 725 for Process 5
 Process 5 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 6 has moved to Running.
-Process ID: 7, Param Index: 0
-Process ID: 6, Param Index: 0
-Process ID: 5, Param Index: 2
-Process ID: 4, Param Index: 19
-Process ID: 3, Param Index: 17
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 6 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
@@ -2476,113 +2253,40 @@ Process 3 completed I/O and is moved to the ReadyQueue.
 print
 Process 5 completed I/O and is moved to the ReadyQueue.
 Process 7 has moved to Running.
-Process ID: 7, Param Index: 0
-Process ID: 6, Param Index: 2
-Process ID: 5, Param Index: 2
-Process ID: 4, Param Index: 19
-Process ID: 3, Param Index: 17
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-7 7
 loaded
-Logical address 7 translated to physical address 327 for Process 7
+Logical address 183 translated to physical address 1862 for Process 7
 Process 7 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 4 has moved to Running.
-Process ID: 7, Param Index: 2
-Process ID: 6, Param Index: 2
-Process ID: 5, Param Index: 2
-Process ID: 4, Param Index: 19
-Process ID: 3, Param Index: 17
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 4 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 7 completed I/O and is moved to the ReadyQueue.
 Process 6 has moved to Running.
-Process ID: 7, Param Index: 2
-Process ID: 6, Param Index: 2
-Process ID: 5, Param Index: 2
-Process ID: 4, Param Index: 21
-Process ID: 3, Param Index: 17
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-253 253
 loaded
 Logical address 253 translated to physical address 253 for Process 6
-253 253
 loaded
 Logical address 253 translated to physical address 253 for Process 6
 Process 6 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 7, Param Index: 2
-Process ID: 6, Param Index: 4
-Process ID: 5, Param Index: 2
-Process ID: 4, Param Index: 21
-Process ID: 3, Param Index: 17
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 Process 3 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 5 has moved to Running.
-Process ID: 7, Param Index: 2
-Process ID: 6, Param Index: 4
-Process ID: 5, Param Index: 2
-Process ID: 4, Param Index: 21
-Process ID: 3, Param Index: 18
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 Process 5 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 4 has moved to Running.
-Process ID: 7, Param Index: 2
-Process ID: 6, Param Index: 4
-Process ID: 5, Param Index: 3
-Process ID: 4, Param Index: 21
-Process ID: 3, Param Index: 18
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-35 267 stored
+stored
 Logical address 267 translated to physical address 1563 for Process 4
 compute
 Process 4 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 3 completed I/O and is moved to the ReadyQueue.
 Process 7 has moved to Running.
-Process ID: 7, Param Index: 2
-Process ID: 6, Param Index: 4
-Process ID: 5, Param Index: 3
-Process ID: 4, Param Index: 25
-Process ID: 3, Param Index: 18
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-226 226
-loaded
-Logical address 226 translated to physical address 1905 for Process 7
-compute
--1 -1
-load error!
 Process 7 issued an IOInterrupt and moved to the IOWaitingQueue.
 print
 Process 5 completed I/O and is moved to the ReadyQueue.
+Process 6 has moved to Running.
+Process 6 issued an IOInterrupt and moved to the IOWaitingQueue.
 print
 Process 7 completed I/O and is moved to the ReadyQueue.
-Process 6 has moved to Running.
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 4
-Process ID: 5, Param Index: 3
-Process ID: 4, Param Index: 25
-Process ID: 3, Param Index: 18
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-Process 6 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 4 has moved to Running.
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 5
-Process ID: 5, Param Index: 3
-Process ID: 4, Param Index: 25
-Process ID: 3, Param Index: 18
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-332 332
 loaded
 Logical address 332 translated to physical address 1628 for Process 4
 Process ID: 4
@@ -2595,156 +2299,71 @@ CPU Cycles Used: 97
 Register Value: -1
 Max Memory Needed: 463
 Main Memory Base: 1296
-Total CPU Cycles Consumed: 239
-Process 4 terminated. Entered running state at: 25. Terminated at: 264. Total Execution Time: 239.
+Total CPU Cycles Consumed: 238
+Process 4 terminated. Entered running state at: 25. Terminated at: 263. Total Execution Time: 238.
 Process 4 terminated and freed memory blocks.
 Process 8 loaded with segment table stored at physical address 1296
-PRINTING MEMORY BLOCKS:
----------------------------------
-Process ID: 6, Start Address: 0, Size: 320
-Process ID: 7, Start Address: 320, Size: 102
-Process ID: 5, Start Address: 422, Size: 519
-Process ID: 7, Start Address: 941, Size: 1
-Process ID: 3, Start Address: 942, Size: 354
-Process ID: 8, Start Address: 1296, Size: 440
-Process ID: -1, Start Address: 1736, Size: 46
-Process ID: 7, Start Address: 1782, Size: 185
-Process ID: -1, Start Address: 1967, Size: 81
 Insufficient memory for Process 9. Attempting memory coalescing.
 Process 9 waiting in NewJobQueue due to insufficient memory.
 Process 3 has moved to Running.
-Process ID: 8, Param Index: 0
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 5
-Process ID: 5, Param Index: 3
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 18
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 3 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 6 completed I/O and is moved to the ReadyQueue.
 Process 5 has moved to Running.
-Process ID: 8, Param Index: 0
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 5
-Process ID: 5, Param Index: 3
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 20
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-260 260
 loaded
 Logical address 260 translated to physical address 682 for Process 5
-370 370
 loaded
 Logical address 370 translated to physical address 792 for Process 5
 Process 5 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 7 has moved to Running.
-Process ID: 8, Param Index: 0
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 5
-Process ID: 5, Param Index: 5
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 20
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-Process ID: 7
-State: TERMINATED
-Program Counter: 12
-Instruction Base: 13
-Data Base: 23
-Memory Limit: 265
-CPU Cycles Used: 12
-Register Value: -1
-Max Memory Needed: 2
-Main Memory Base: 4
-Total CPU Cycles Consumed: 61
-Process 7 terminated. Entered running state at: 223. Terminated at: 284. Total Execution Time: 61.
-Process 7 terminated and freed memory blocks.
+loaded
+Logical address 166 translated to physical address 1845 for Process 7
+compute
+Process 7 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 8 has moved to Running.
-Process ID: 8, Param Index: 0
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 5
-Process ID: 5, Param Index: 5
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 20
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 8 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 8, Param Index: 2
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 5
-Process ID: 5, Param Index: 5
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 20
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 3 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 6 has moved to Running.
-Process ID: 8, Param Index: 2
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 5
-Process ID: 5, Param Index: 5
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 22
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-19 244 stored
+stored
 Logical address 244 translated to physical address 244 for Process 6
-5 180 stored
+stored
 Logical address 180 translated to physical address 180 for Process 6
 Process 6 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 5 has moved to Running.
-Process ID: 8, Param Index: 2
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 9
-Process ID: 5, Param Index: 5
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 22
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-460 460
 loaded
 Logical address 460 translated to physical address 882 for Process 5
-320 320
 loaded
 Logical address 320 translated to physical address 742 for Process 5
 Process 5 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 7 has moved to Running.
+loaded
+Logical address 226 translated to physical address 1905 for Process 7
+Process ID: 7
+State: TERMINATED
+Program Counter: 16
+Instruction Base: 17
+Data Base: 23
+Memory Limit: 265
+CPU Cycles Used: 18
+Register Value: -1
+Max Memory Needed: 265
+Main Memory Base: 320
+Total CPU Cycles Consumed: 105
+Process 7 terminated. Entered running state at: 223. Terminated at: 328. Total Execution Time: 105.
+Process 7 terminated and freed memory blocks.
+Process 9 loaded with segment table stored at physical address 320
+Insufficient memory for Process 10. Attempting memory coalescing.
+Process 10 waiting in NewJobQueue due to insufficient memory.
 Process 8 has moved to Running.
-Process ID: 8, Param Index: 2
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 9
-Process ID: 5, Param Index: 7
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 22
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 8 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 8, Param Index: 4
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 9
-Process ID: 5, Param Index: 7
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 22
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 Process 3 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 6 has moved to Running.
-Process ID: 8, Param Index: 4
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 9
-Process ID: 5, Param Index: 7
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 23
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process ID: 6
 State: TERMINATED
@@ -2756,216 +2375,73 @@ CPU Cycles Used: 30
 Register Value: 5
 Max Memory Needed: 297
 Main Memory Base: 0
-Total CPU Cycles Consumed: 135
-Process 6 terminated. Entered running state at: 210. Terminated at: 345. Total Execution Time: 135.
+Total CPU Cycles Consumed: 145
+Process 6 terminated. Entered running state at: 210. Terminated at: 355. Total Execution Time: 145.
 Process 6 terminated and freed memory blocks.
-Process 9 loaded with segment table stored at physical address 0
-PRINTING MEMORY BLOCKS:
----------------------------------
-Process ID: 9, Start Address: 0, Size: 264
-Process ID: -1, Start Address: 264, Size: 158
-Process ID: 5, Start Address: 422, Size: 519
-Process ID: -1, Start Address: 941, Size: 1
-Process ID: 3, Start Address: 942, Size: 354
-Process ID: 8, Start Address: 1296, Size: 440
-Process ID: -1, Start Address: 1736, Size: 312
 Insufficient memory for Process 10. Attempting memory coalescing.
 Process 10 waiting in NewJobQueue due to insufficient memory.
 print
 Process 3 completed I/O and is moved to the ReadyQueue.
 Process 5 has moved to Running.
-Process ID: 9, Param Index: 0
-Process ID: 8, Param Index: 4
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 7
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 23
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 5 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 9 has moved to Running.
+loaded
+Logical address 137 translated to physical address 1770 for Process 9
+loaded
+Logical address 205 translated to physical address 1838 for Process 9
+Process 9 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 8 has moved to Running.
-Process ID: 9, Param Index: 0
-Process ID: 8, Param Index: 4
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 9
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 23
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-247 247
 loaded
 Logical address 247 translated to physical address 1543 for Process 8
 compute
 Process 8 has a TimeOUT interrupt and is moved to the ReadyQueue.
-Process 9 has moved to Running.
-Process ID: 9, Param Index: 0
-Process ID: 8, Param Index: 7
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 9
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 23
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-137 137
-loaded
-Logical address 137 translated to physical address 137 for Process 9
-205 205
-loaded
-Logical address 205 translated to physical address 205 for Process 9
-Process 9 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 9, Param Index: 2
-Process ID: 8, Param Index: 7
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 9
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 23
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-12 201 stored
+stored
 Logical address 201 translated to physical address 1143 for Process 3
 compute
 Process 3 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 5 has moved to Running.
-Process ID: 9, Param Index: 2
-Process ID: 8, Param Index: 7
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 9
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 27
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 Process 5 issued an IOInterrupt and moved to the IOWaitingQueue.
-Process 8 has moved to Running.
-Process ID: 9, Param Index: 2
-Process ID: 8, Param Index: 7
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 10
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 27
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-24 255 stored
-Logical address 255 translated to physical address 1551 for Process 8
-11 344 stored
-Logical address 344 translated to physical address 1640 for Process 8
-Process 8 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 9 has moved to Running.
-Process ID: 9, Param Index: 2
-Process ID: 8, Param Index: 11
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 10
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 27
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 9 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 5 completed I/O and is moved to the ReadyQueue.
-Process 3 has moved to Running.
-Process ID: 9, Param Index: 4
-Process ID: 8, Param Index: 11
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 10
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 27
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-Process 3 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 8 has moved to Running.
-Process ID: 9, Param Index: 4
-Process ID: 8, Param Index: 11
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 10
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-21 381 stored
-Logical address 381 translated to physical address 1677 for Process 8
-51 237 stored
-Logical address 237 translated to physical address 1533 for Process 8
+stored
+Logical address 255 translated to physical address 1551 for Process 8
+stored
+Logical address 344 translated to physical address 1640 for Process 8
 Process 8 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 3 has moved to Running.
+Process 3 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 9 has moved to Running.
-Process ID: 9, Param Index: 4
-Process ID: 8, Param Index: 15
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 10
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-30 224 stored
-Logical address 224 translated to physical address 224 for Process 9
+stored
+Logical address 224 translated to physical address 1857 for Process 9
 compute
 Process 9 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 3 completed I/O and is moved to the ReadyQueue.
 Process 5 has moved to Running.
-Process ID: 9, Param Index: 8
-Process ID: 8, Param Index: 15
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 10
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-16 320 stored
+stored
 Logical address 320 translated to physical address 742 for Process 5
 Process 5 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 8 has moved to Running.
-Process ID: 9, Param Index: 8
-Process ID: 8, Param Index: 15
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 13
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-compute
+stored
+Logical address 381 translated to physical address 1677 for Process 8
+stored
+Logical address 237 translated to physical address 1533 for Process 8
 Process 8 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 9 has moved to Running.
+loaded
+Logical address 224 translated to physical address 1857 for Process 9
+stored
+Logical address 220 translated to physical address 1853 for Process 9
+Process 9 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 5 completed I/O and is moved to the ReadyQueue.
-Process 9 has moved to Running.
-Process ID: 9, Param Index: 8
-Process ID: 8, Param Index: 17
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 13
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-224 224
-loaded
-Logical address 224 translated to physical address 224 for Process 9
-47 220 stored
-Logical address 220 translated to physical address 220 for Process 9
-Process 9 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 3 has moved to Running.
-Process ID: 9, Param Index: 11
-Process ID: 8, Param Index: 17
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 13
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 Process ID: 3
 State: TERMINATED
 Program Counter: 12
@@ -2976,90 +2452,55 @@ CPU Cycles Used: 126
 Register Value: 12
 Max Memory Needed: 331
 Main Memory Base: 942
-Total CPU Cycles Consumed: 433
-Process 3 terminated. Entered running state at: 8. Terminated at: 441. Total Execution Time: 433.
+Total CPU Cycles Consumed: 435
+Process 3 terminated. Entered running state at: 8. Terminated at: 443. Total Execution Time: 435.
 Process 3 terminated and freed memory blocks.
-Process 10 loaded with segment table stored at physical address 264
-PRINTING MEMORY BLOCKS:
----------------------------------
-Process ID: 9, Start Address: 0, Size: 264
-Process ID: 10, Start Address: 264, Size: 158
-Process ID: 5, Start Address: 422, Size: 519
-Process ID: 10, Start Address: 941, Size: 343
-Process ID: -1, Start Address: 1284, Size: 12
-Process ID: 8, Start Address: 1296, Size: 440
-Process ID: -1, Start Address: 1736, Size: 312
+Process 10 loaded with segment table stored at physical address 0
 Process 8 has moved to Running.
-Process ID: 10, Param Index: 0
-Process ID: 9, Param Index: 11
-Process ID: 8, Param Index: 17
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 13
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 8 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 9 has moved to Running.
+Process 9 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 5 has moved to Running.
-Process ID: 10, Param Index: 0
-Process ID: 9, Param Index: 11
-Process ID: 8, Param Index: 19
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 13
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-402 402
 loaded
 Logical address 402 translated to physical address 824 for Process 5
 Process 5 issued an IOInterrupt and moved to the IOWaitingQueue.
-Process 9 has moved to Running.
-Process ID: 10, Param Index: 0
-Process ID: 9, Param Index: 11
-Process ID: 8, Param Index: 19
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 15
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-Process 9 issued an IOInterrupt and moved to the IOWaitingQueue.
-print
-Process 5 completed I/O and is moved to the ReadyQueue.
 Process 10 has moved to Running.
-Process ID: 10, Param Index: 0
-Process ID: 9, Param Index: 12
-Process ID: 8, Param Index: 19
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 15
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 10 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 9 completed I/O and is moved to the ReadyQueue.
+print
+Process 5 completed I/O and is moved to the ReadyQueue.
 Process 8 has moved to Running.
-Process ID: 10, Param Index: 2
-Process ID: 9, Param Index: 12
-Process ID: 8, Param Index: 19
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 15
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-52 249 stored
+compute
+Process 8 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 10 has moved to Running.
+Process 10 issued an IOInterrupt and moved to the IOWaitingQueue.
+Process 9 has moved to Running.
+stored
+Logical address 135 translated to physical address 1768 for Process 9
+Process ID: 9
+State: TERMINATED
+Program Counter: 16
+Instruction Base: 17
+Data Base: 26
+Memory Limit: 241
+CPU Cycles Used: 29
+Register Value: 64
+Max Memory Needed: 241
+Main Memory Base: 320
+Total CPU Cycles Consumed: 115
+Process 9 terminated. Entered running state at: 368. Terminated at: 483. Total Execution Time: 115.
+Process 9 terminated and freed memory blocks.
+Process 5 has moved to Running.
+compute
+Process 5 has a TimeOUT interrupt and is moved to the ReadyQueue.
+print
+Process 10 completed I/O and is moved to the ReadyQueue.
+Process 8 has moved to Running.
+stored
 Logical address 249 translated to physical address 1545 for Process 8
-402 402
 loaded
 Logical address 402 translated to physical address 1698 for Process 8
 Process ID: 8
@@ -3072,143 +2513,36 @@ CPU Cycles Used: 56
 Register Value: -1
 Max Memory Needed: 417
 Main Memory Base: 1296
-Total CPU Cycles Consumed: 184
-Process 8 terminated. Entered running state at: 286. Terminated at: 470. Total Execution Time: 184.
+Total CPU Cycles Consumed: 208
+Process 8 terminated. Entered running state at: 293. Terminated at: 501. Total Execution Time: 208.
 Process 8 terminated and freed memory blocks.
 Process 5 has moved to Running.
-Process ID: 10, Param Index: 2
-Process ID: 9, Param Index: 12
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 15
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-compute
-Process 5 has a TimeOUT interrupt and is moved to the ReadyQueue.
-Process 10 has moved to Running.
-Process ID: 10, Param Index: 2
-Process ID: 9, Param Index: 12
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 17
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-Process 10 issued an IOInterrupt and moved to the IOWaitingQueue.
-Process 9 has moved to Running.
-Process ID: 10, Param Index: 3
-Process ID: 9, Param Index: 12
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 17
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-64 135 stored
-Logical address 135 translated to physical address 135 for Process 9
-Process ID: 9
-State: TERMINATED
-Program Counter: 12
-Instruction Base: 13
-Data Base: 22
-Memory Limit: 241
-CPU Cycles Used: 29
-Register Value: 64
-Max Memory Needed: 241
-Main Memory Base: 0
-Total CPU Cycles Consumed: 117
-Process 9 terminated. Entered running state at: 372. Terminated at: 489. Total Execution Time: 117.
-Process 9 terminated and freed memory blocks.
-Process 5 has moved to Running.
-Process ID: 10, Param Index: 3
-Process ID: 9, Param Index: 14
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 17
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-10 308 stored
+stored
 Logical address 308 translated to physical address 730 for Process 5
 Process 5 issued an IOInterrupt and moved to the IOWaitingQueue.
-print
-Process 10 completed I/O and is moved to the ReadyQueue.
 Process 10 has moved to Running.
-Process ID: 10, Param Index: 3
-Process ID: 9, Param Index: 14
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 20
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 10 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 5 completed I/O and is moved to the ReadyQueue.
 Process 10 has moved to Running.
-Process ID: 10, Param Index: 5
-Process ID: 9, Param Index: 14
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 20
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 Process 10 issued an IOInterrupt and moved to the IOWaitingQueue.
 Process 5 has moved to Running.
-Process ID: 10, Param Index: 6
-Process ID: 9, Param Index: 14
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 20
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-compute
-Process 5 has a TimeOUT interrupt and is moved to the ReadyQueue.
-Process 5 has moved to Running.
-Process ID: 10, Param Index: 6
-Process ID: 9, Param Index: 14
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 22
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
 compute
 Process 5 has a TimeOUT interrupt and is moved to the ReadyQueue.
 print
 Process 10 completed I/O and is moved to the ReadyQueue.
 Process 5 has moved to Running.
-Process ID: 10, Param Index: 6
-Process ID: 9, Param Index: 14
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 24
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-68 400 stored
+compute
+Process 5 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 10 has moved to Running.
+loaded
+Logical address 476 translated to physical address 1098 for Process 10
+stored
+Logical address 458 translated to physical address 1080 for Process 10
+Process 10 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 5 has moved to Running.
+stored
 Logical address 400 translated to physical address 822 for Process 5
 Process ID: 5
 State: TERMINATED
@@ -3220,63 +2554,48 @@ CPU Cycles Used: 84
 Register Value: 68
 Max Memory Needed: 496
 Main Memory Base: 422
-Total CPU Cycles Consumed: 799
-Process 5 terminated. Entered running state at: 207. Terminated at: 1006. Total Execution Time: 799.
+Total CPU Cycles Consumed: 345
+Process 5 terminated. Entered running state at: 207. Terminated at: 552. Total Execution Time: 345.
 Process 5 terminated and freed memory blocks.
 Process 10 has moved to Running.
-Process ID: 10, Param Index: 6
-Process ID: 9, Param Index: 14
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 26
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-458 458
-loaded
-Logical address 458 translated to physical address 1241 for Process 10
-65 328 stored
-Logical address 328 translated to physical address 1111 for Process 10
-Process 10 has a TimeOUT interrupt and is moved to the ReadyQueue.
-Process 10 has moved to Running.
-Process ID: 10, Param Index: 9
-Process ID: 9, Param Index: 14
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 26
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
-8 9 stored
-Logical address 9 translated to physical address 273 for Process 10
+stored
+Logical address 328 translated to physical address 950 for Process 10
 compute
 Process 10 has a TimeOUT interrupt and is moved to the ReadyQueue.
 Process 10 has moved to Running.
-Process ID: 10, Param Index: 13
-Process ID: 9, Param Index: 14
-Process ID: 8, Param Index: 22
-Process ID: 7, Param Index: 7
-Process ID: 6, Param Index: 11
-Process ID: 5, Param Index: 26
-Process ID: 4, Param Index: 26
-Process ID: 3, Param Index: 28
-Process ID: 2, Param Index: 8
-Process ID: 1, Param Index: 28
+loaded
+Logical address 474 translated to physical address 1096 for Process 10
+Process 10 issued an IOInterrupt and moved to the IOWaitingQueue.
+print
+Process 10 completed I/O and is moved to the ReadyQueue.
+Process 10 has moved to Running.
+compute
+Process 10 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 10 has moved to Running.
+Process 10 issued an IOInterrupt and moved to the IOWaitingQueue.
+print
+Process 10 completed I/O and is moved to the ReadyQueue.
+Process 10 has moved to Running.
+compute
+Process 10 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 10 has moved to Running.
+compute
+Process 10 has a TimeOUT interrupt and is moved to the ReadyQueue.
+Process 10 has moved to Running.
+stored
+Logical address 470 translated to physical address 1092 for Process 10
+compute
 Process ID: 10
 State: TERMINATED
-Program Counter: 12
-Instruction Base: 13
-Data Base: 8
+Program Counter: 14
+Instruction Base: 15
+Data Base: 31
 Memory Limit: 478
-CPU Cycles Used: 522
-Register Value: 8
-Max Memory Needed: 1
-Main Memory Base: 2
-Total CPU Cycles Consumed: 556
-Process 10 terminated. Entered running state at: 460. Terminated at: 1016. Total Execution Time: 556.
+CPU Cycles Used: 97
+Register Value: 30
+Max Memory Needed: 478
+Main Memory Base: 0
+Total CPU Cycles Consumed: 168
+Process 10 terminated. Entered running state at: 458. Terminated at: 626. Total Execution Time: 168.
 Process 10 terminated and freed memory blocks.
-Total CPU time used: 1018.
+Total CPU time used: 628.
