@@ -1,4 +1,4 @@
-# Project 4 - PCB and Memory Simulator
+# PCB and Memory Simulator
 
 This project is a CPU scheduling and segmented memory management simulator. It simulates loading processes into memory, translating logical to physical addresses, and executing processes using a time-sliced round-robin scheduler.
 
