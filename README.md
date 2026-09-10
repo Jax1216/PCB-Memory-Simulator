@@ -3,7 +3,7 @@
 This project is a CPU scheduling and segmented memory management simulator. It simulates loading processes into memory, translating logical to physical addresses, and executing processes using a time-sliced round-robin scheduler.
 
 ## Files
-- `Project4.cpp`: The main C++ source code for the simulator.
+- `main.cpp`: The main C++ source code for the simulator.
 - `input.txt`: provided input file containing system parameters and process details to test the program.
 - `output.txt` / `my_output.txt`: output files used for comparison against the provided correct output.
 
@@ -11,7 +11,7 @@ This project is a CPU scheduling and segmented memory management simulator. It s
 
 Compile the program using `g++`:
 ```bash
-g++ Project4.cpp -o sim
+g++ main.cpp -o sim
 ```
 
 Run the program by piping in an input file:
